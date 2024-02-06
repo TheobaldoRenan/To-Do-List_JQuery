@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Merienda:wght@300;400;700&display=swap');
+    /*  font-family: 'Kalam', cursive;
+        font-family: 'Merienda', cursive; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #D8CFAF;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #F374AE;
+    padding: 16px 0;
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #32533D;
+}
+
+h1{
+    font-family: 'Merienda', cursive;
+    color: #0A2463;
+    font-weight: 700;
+    font-size: 54px;
+    text-shadow: 1px 1px 1px #FB3640;
+}
+
+form {
+    padding: 12px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center; 
+}
+
+form input{
+    width: 50%;
+    padding: 12px;
+    font-size: 24px;
+    border: 2px solid #ED9390;    
+}
+
+form button{
+    padding: 12px;
+    width: 50%;
+    font-size: 20px;
+    max-width: 140px;
+    margin-left: 12px;
+    border: 2px solid #ED9390;    
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #ED9390 ;
+    border: 2px solid #32533D ;
+}
+
+#lista{
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;  
+}
+
+li{
+    text-decoration: none;
+}
